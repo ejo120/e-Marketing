@@ -19,6 +19,8 @@ body{
 .nav_bar{
 	background: #cccccc;
 	border: 2px solid #000000;
+	border-left: none;
+	border-right: none;
 	margin: auto;
 	font-size: 20px;
 	font-weight: bold;
