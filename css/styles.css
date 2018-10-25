@@ -18,15 +18,13 @@ body{
 
 .nav_bar{
 	background: #cccccc;
-	border: 1px solid #000000;
+	border: 2px solid #000000;
 	margin: auto;
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px 20px 10px 20px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	
 	
 }
 .nav_bar a{
