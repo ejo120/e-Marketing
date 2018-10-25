@@ -22,10 +22,11 @@ body{
 	border-left: none;
 	border-right: none;
 	margin: auto;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px 20px 10px 20px;
+	float:right;
 	
 	
 }
