@@ -28,6 +28,19 @@ body{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+.nav_bar a{
+	color: blueviolet;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.nav_bar a:hover {
+	color: #000000;
+	text-decoration: underline;
 }
 
 /* ================================= 
