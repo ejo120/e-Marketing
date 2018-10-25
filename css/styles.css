@@ -42,6 +42,9 @@ body{
 	text-decoration: underline;
 }
 
+.logo + div {
+	display: inline-block;
+}
 /* ================================= 
   Media Queries
 ==================================== */
