@@ -21,14 +21,14 @@ body{
 	border: 1px solid #000000;
 	width: 860px;
 	margin: auto;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px 20px 10px 20px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	text-align: center;
+
 	margin-top: 50px;
 }
 .nav_bar a{
