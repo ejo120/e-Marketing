@@ -1,15 +1,24 @@
+/* Background */
+body{
+	background-color:rgba(54, 8, 8, 0.637);
+	margin: 0 auto;
+	font-family: arial;
+}
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
+/* Company Logo */
+.logo + .main-nav {
+	display: inline-block;
+}
+
 
 /* ---- Navigation ---- */
 .main-nav {
     background-color: rgb(16, 49, 197);
-    overflow: hidden;
+	overflow: hidden;
+	margin-top: 0px;
 }
 
-/* Style the links inside the navigation bar */
+/* Style Navigation Bar */
 .main-nav a {
     float: right;
     color: #ffffff;
@@ -19,50 +28,50 @@
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Color of links on hover */
 .main-nav a:hover {
     background-color: rgb(106, 115, 236);
     color: rgb(228, 228, 228);
 }
 
-/* Add a color to the active/current link */
+/* Color to the active/current link */
 .main-nav a.active {
     background-color: rgb(108, 84, 243);
     color: white;
 }
 
 
-/*==================================
-    Background
-==================================== */
-body{
-	background-color:rgba(54, 8, 8, 0.637);
-	margin: 0 auto;
-	font-family: arial;
+
+/*========================================
+		   *Footer Navigation Bar
+==========================================*/
+.footer-nav {
+    background-color: rgb(16, 49, 197);
+    overflow: hidden;
 }
 
+/* Style Navigation Bar */
+.footer-nav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-.logo + div {
+/* Color of links on hover */
+.footer-nav a:hover {
+    background-color: rgb(106, 115, 236);
+    color: rgb(228, 228, 228);
+}
+
+/* Color to the active/current link */
+.footer-nav a.active {
+    background-color: rgb(108, 84, 243);
+    color: white;
+}
+
+.copyright + .footer-nav {
 	display: inline-block;
-}
-/* ================================= 
-  Media Queries
-==================================== */
-
-@media (min-width: 769px) {
-	.main-header,
-	.row {
-		width: 90%;
-		margin: 0 auto;
-	}
-	.tagline {
-		font-size: 1.4em;
-	}
-}
-@media (min-width: 1025px) {
-	.main-header,
-	.row {
-		width: 80%;
-		max-width: 1150px;
-	}
 }
