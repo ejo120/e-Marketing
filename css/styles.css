@@ -4,43 +4,43 @@
 ==================================== */
 
 /* ---- Navigation ---- */
+.main-nav {
+    background-color: rgb(16, 49, 197);
+    overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.main-nav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.main-nav a:hover {
+    background-color: rgb(106, 115, 236);
+    color: rgb(228, 228, 228);
+}
+
+/* Add a color to the active/current link */
+.main-nav a.active {
+    background-color: rgb(108, 84, 243);
+    color: white;
+}
 
 
 /*==================================
     Background
 ==================================== */
 body{
-	background-color:silver;
+	background-color:rgba(54, 8, 8, 0.637);
 	margin: 0 auto;
 	font-family: arial;
 }
 
-.nav_bar{
-	background: #cccccc;
-	border: 2px solid #000000;
-	border-left: none;
-	border-right: none;
-	margin: auto;
-	font-size: 14px;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 10px 20px 10px 20px;
-	float:right;
-	
-	
-}
-.nav_bar a{
-	color: blueviolet;
-	text-decoration: none;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-.nav_bar a:hover {
-	color: #000000;
-	text-decoration: underline;
-}
 
 .logo + div {
 	display: inline-block;
