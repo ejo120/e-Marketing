@@ -82,7 +82,8 @@ body{
 .copyright{
 	color: white;
 	float: left;
-	text-align: left
+	text-align: center;
+	padding: 2px;
 }
 
 .copyright ,.footer-nav{
