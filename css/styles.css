@@ -9,6 +9,12 @@ body{
 /* Company Logo */
 .logo + .main-nav {
 	display: inline-block;
+
+}
+
+.logo {
+	margin-top: 3px;
+	border-radius: 50%;
 }
 
 
@@ -16,7 +22,9 @@ body{
 .main-nav {
     background-color: rgb(16, 49, 197);
 	overflow: hidden;
-	margin: 0px;
+	margin-top: 0px;
+	width: 100%;
+	
 }
 
 /* Style Navigation Bar */
@@ -44,22 +52,29 @@ body{
 /*========================================
 		   *Slide Show
 ==========================================*/
-
 * {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  overflow:none;
+  max-width: 800px;
+  max-height: 380px;
+  overflow:hidden;
   position: relative;
   margin: auto;
-  
+
+}
+
+.red {
+	max-width: 800px;
+	max-height: 380px;
 }
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+	display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -149,7 +164,7 @@ body{
 .footer-nav {
 	background-color: rgb(16, 49, 197);
 	overflow: hidden;
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
 	width: 100%;
 }
