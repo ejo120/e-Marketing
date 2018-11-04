@@ -1,6 +1,6 @@
 /* Background */
 body{
-	background-color:rgb(223, 253, 253);
+	background-color:rgb(31, 31, 31);
 	margin: 0 auto;
 	font-family: arial;
 	
@@ -20,10 +20,12 @@ body{
 
 /* ---- Navigation ---- */
 .main-nav {
-    background-color: rgb(16, 49, 197);
+    background-color: black;
 	overflow: hidden;
-	margin-top: 0px;
-	width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  
 	
 }
 
@@ -39,16 +41,26 @@ body{
 
 /* Color of links on hover */
 .main-nav a:hover {
-    background-color: rgb(106, 115, 236);
+    background-color: rgb(52, 52, 53);
     color: rgb(228, 228, 228);
 }
 
 /* Color to the active/current link */
 .main-nav a.active {
-    background-color: rgb(108, 84, 243);
+    background-color: rgb(98, 98, 100);
     color: white;
 }
+/*========================================
+		   Company Title 
+==========================================*/
 
+.e-title{
+    position: relative;
+    width: 100%;
+    max-height: 220px;
+    padding-bottom: 36px;
+    
+}
 /*========================================
 		   *Slide Show
 ==========================================*/
@@ -156,13 +168,51 @@ body{
   from {opacity: .4} 
   to {opacity: 1}
 }
+/*========================================
+		   *Columns
+==========================================*/
+
+.row{
+  color: white;
+}
+
+.row div{
+  margin-left: 0;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  border: 20px solid black;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  width: 80%;
+  margin: 20px 0px 20px 0px;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color:white;
+}
+
+p {
+  text-align: left;
+  word-wrap: normal;
+}
 
 
 /*========================================
 		   *Footer Navigation Bar
 ==========================================*/
 .footer-nav {
-	background-color: rgb(16, 49, 197);
+	background-color: black;
 	overflow: hidden;
 	/*position: fixed;*/
 	bottom: 0;
@@ -183,13 +233,13 @@ body{
 
 /* Color of links on hover */
 .footer-nav a:hover {
-    background-color: rgb(106, 115, 236);
+    background-color:  rgb(52, 52, 53);
     color: rgb(228, 228, 228);
 }
 
 /* Color to the active/current link */
 .footer-nav a.active {
-    background-color: rgb(108, 84, 243);
+    background-color: rgb(98, 98, 100);
     color: white;
 }
 
