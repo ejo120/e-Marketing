@@ -26,3 +26,10 @@
 	}
 
 }
+
+@media only screen and (max-width:360px) {
+	/* For mobile phones: */
+	ul .main-nav a {
+		display:block;
+		justify-content: center;
+	}}

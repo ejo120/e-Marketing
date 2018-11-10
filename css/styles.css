@@ -188,16 +188,18 @@ body{
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .row {
   width: 80%;
   margin: 20px 0px 20px 0px;
   padding: 0;
   color:rgba(255, 255, 255, 0.8);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 p {
