@@ -1,7 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() { 
-   showSlides();
- });
+    showSlides();
+  });
+ 
+  // Toggle for main-nav bar
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "main-nav") {
+      x.className += " responsive";
+  } else {
+      x.className = "main-nav";
+  }
+}
 
+// Rotating Slideshow
 var slideIndex = 1;
 showSlides(slideIndex);
 
